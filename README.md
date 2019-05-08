@@ -1,2 +1,3 @@
-# pengtou-backend
-Backend of the pengtou project, based on the django framework.
+# Pengtou 项目
+## 1. 代码结构
+
