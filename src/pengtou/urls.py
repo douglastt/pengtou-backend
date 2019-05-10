@@ -20,6 +20,7 @@ from . import views
 
 urlpatterns = [
     path('test/', views.test),
-    path('testjson/', views.testJson)
+    path('testjson/', views.testJson),
+    path('user', views.user)
 
 ]
