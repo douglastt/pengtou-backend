@@ -19,8 +19,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('test/', views.test),
-    path('testjson/', views.testJson),
     path('user', views.user)
 
 ]
