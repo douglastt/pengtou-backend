@@ -19,6 +19,9 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('user', views.user)
-
+    path('user', views.user),
+    path('activity', views.activity),
+    path('user_activity', views.user_activity),
+    path('voting', views.voting),
+    path('preferred_location', views.preferred_location)
 ]
